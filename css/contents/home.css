@@ -1,0 +1,105 @@
+.main .container .home h1 {
+  color: #c6cbf5;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15vmax;
+  font-weight: 1000;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 20;
+  background: -webkit-linear-gradient(
+    top,
+    #151c60,
+    #c6cbf5 40%,
+    black 40%,
+    #010d18 65%,
+    white
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  display: block;
+  width: 100%;
+  z-index: 13;
+}
+
+@media only screen and (max-width: 750px) {
+  .main .container .home h1 {
+    font-size: 15vmin;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .main .container .home h2 {
+    font-size: 8vmin;
+    top: 11vmin;
+  }
+}
+
+.main .container .contents {
+  color: #fff;
+  font-family: 'Raleway', Arial, sans-serif;
+  position: absolute;
+  top: 27vmax;
+  z-index: 11;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 15% 0 15%;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 2px;
+  z-index: 11;
+  height: 100%;
+  /* border: 1px solid #fff; */
+}
+
+@media only screen and (max-width: 750px) {
+  .main .container .contents {
+    top: 27vmin;
+  }
+}
+
+.main .container .contents p {
+  font-size: 15px;
+  top: 10vmax;
+  line-height: 25px;
+}
+
+@media only screen and (max-width: 750px) {
+  .main .container .contents p {
+    top: 27vmin;
+  }
+}
+
+.main .container .contents .newLine {
+  font-size: 15px;
+}
+
+.newLine::before {
+  content: '\A';
+  white-space: pre;
+}
+
+.main .container .contents h3 {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 750px) {
+  .main .container .contents h3 {
+    font-size: 6vmin;
+  }
+}
+
+.main .container .contents p {
+  font-style: italic;
+  /* border: 1px solid #fff; */
+}
+
+.main .container .contents .copyright {
+  font-size: 0.5rem;
+  /* border: 1px solid #fff; */
+  margin: 50px 0 20px 0;
+  font-style: normal;
+  font-family: 'Orbitron', sans-serif;
+}

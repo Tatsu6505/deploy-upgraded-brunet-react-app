@@ -1,0 +1,71 @@
+/* Title */
+h2 {
+  color: #d100b1;
+  display: block;
+  font-family: 'Yellowtail', cursive;
+  font-size: 8vmax;
+  /* margin-right: -8em; */
+  position: absolute;
+  text-shadow: 0 0 1px #d100b1, 0 -3px 3px rgba(255, 255, 255, 0.8),
+    0 3px 3px rgba(0, 0, 0, 0.5), 0 0 15px #d100b1,
+    0 0 45px rgba(209, 0, 177, 0.8);
+  text-align: center;
+  text-decoration: underline;
+  text-transform: none;
+  -webkit-transform: skew(-10deg) rotate(-10deg);
+  -ms-transform: skew(-10deg) rotate(-10deg);
+  transform: skew(-10deg) rotate(-10deg);
+  top: 11vmax;
+  width: 99%;
+  z-index: 13;
+}
+
+/* Triangle Sign */
+.logo-triangle {
+  -webkit-animation: dash 6s linear forwards;
+  animation: dash 6s linear forwards;
+  fill: url(#grad1);
+  -webkit-filter: url(#dropshadow);
+  filter: url(#dropshadow);
+  left: 50%;
+  margin-left: -200px;
+  position: absolute;
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  top: 2vmax;
+  z-index: 8;
+}
+
+@media only screen and (max-width: 750px) {
+  .logo-triangle {
+    top: -2vmin;
+  }
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Contents */
+/* .main .container .contents {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: absolute;
+  top: 100px;
+  z-index: 11;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 2px;
+  z-index: 11;
+  border: 1px solid blue;
+} */

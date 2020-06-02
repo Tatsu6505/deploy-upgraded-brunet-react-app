@@ -1,0 +1,38 @@
+.main .container .nexPopUp h1 {
+  color: #c6cbf5;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15vmax;
+  font-weight: 1000;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 20;
+  background: -webkit-linear-gradient(
+    top,
+    #151c60,
+    #c6cbf5 40%,
+    black 40%,
+    #010d18 65%,
+    white
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+  display: block;
+  width: 100%;
+  z-index: 13;
+}
+
+@media only screen and (max-width: 750px) {
+  .main .container .nexPopUp h1 {
+    font-size: 15vmin;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .main .container .nexPopUp h2 {
+    font-size: 8vmin;
+    top: 11vmin;
+  }
+}
