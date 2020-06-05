@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.js": "/deploy-upgraded-brunet-react-app/static/js/main.525b0ff7.chunk.js",
-    "main.js.map": "/deploy-upgraded-brunet-react-app/static/js/main.525b0ff7.chunk.js.map",
-    "runtime-main.js": "/deploy-upgraded-brunet-react-app/static/js/runtime-main.8e9ce509.js",
-    "runtime-main.js.map": "/deploy-upgraded-brunet-react-app/static/js/runtime-main.8e9ce509.js.map",
-    "static/js/2.26141467.chunk.js": "/deploy-upgraded-brunet-react-app/static/js/2.26141467.chunk.js",
-    "static/js/2.26141467.chunk.js.map": "/deploy-upgraded-brunet-react-app/static/js/2.26141467.chunk.js.map",
-    "index.html": "/deploy-upgraded-brunet-react-app/index.html",
-    "precache-manifest.2a1ee59ad51a360d17c8f7e4f13545ab.js": "/deploy-upgraded-brunet-react-app/precache-manifest.2a1ee59ad51a360d17c8f7e4f13545ab.js",
-    "service-worker.js": "/deploy-upgraded-brunet-react-app/service-worker.js",
-    "static/js/2.26141467.chunk.js.LICENSE.txt": "/deploy-upgraded-brunet-react-app/static/js/2.26141467.chunk.js.LICENSE.txt",
-    "static/media/agedashi-tofu.jpeg": "/deploy-upgraded-brunet-react-app/static/media/agedashi-tofu.91655dbf.jpeg",
-    "static/media/karaage.jpeg": "/deploy-upgraded-brunet-react-app/static/media/karaage.bf3f46ed.jpeg",
-    "static/media/miso-mackerel.jpeg": "/deploy-upgraded-brunet-react-app/static/media/miso-mackerel.2f8badf8.jpeg",
-    "static/media/ramen.jpeg": "/deploy-upgraded-brunet-react-app/static/media/ramen.c2fa556d.jpeg",
-    "static/media/shrimp-dumplings.jpeg": "/deploy-upgraded-brunet-react-app/static/media/shrimp-dumplings.f77fd229.jpeg",
-    "static/media/tsukemono.jpeg": "/deploy-upgraded-brunet-react-app/static/media/tsukemono.58dcf38e.jpeg",
-    "static/media/video10.mp4": "/deploy-upgraded-brunet-react-app/static/media/video10.74623838.mp4"
+    "main.js": "/deploy-brunet-react-app/static/js/main.4da46017.chunk.js",
+    "main.js.map": "/deploy-brunet-react-app/static/js/main.4da46017.chunk.js.map",
+    "runtime-main.js": "/deploy-brunet-react-app/static/js/runtime-main.02cc53a7.js",
+    "runtime-main.js.map": "/deploy-brunet-react-app/static/js/runtime-main.02cc53a7.js.map",
+    "static/js/2.2141ca6e.chunk.js": "/deploy-brunet-react-app/static/js/2.2141ca6e.chunk.js",
+    "static/js/2.2141ca6e.chunk.js.map": "/deploy-brunet-react-app/static/js/2.2141ca6e.chunk.js.map",
+    "index.html": "/deploy-brunet-react-app/index.html",
+    "precache-manifest.ebb2e2f74afad03381a223f9f9e17ee0.js": "/deploy-brunet-react-app/precache-manifest.ebb2e2f74afad03381a223f9f9e17ee0.js",
+    "service-worker.js": "/deploy-brunet-react-app/service-worker.js",
+    "static/js/2.2141ca6e.chunk.js.LICENSE.txt": "/deploy-brunet-react-app/static/js/2.2141ca6e.chunk.js.LICENSE.txt",
+    "static/media/agedashi-tofu.jpeg": "/deploy-brunet-react-app/static/media/agedashi-tofu.91655dbf.jpeg",
+    "static/media/karaage.jpeg": "/deploy-brunet-react-app/static/media/karaage.bf3f46ed.jpeg",
+    "static/media/miso-mackerel.jpeg": "/deploy-brunet-react-app/static/media/miso-mackerel.2f8badf8.jpeg",
+    "static/media/ramen.jpeg": "/deploy-brunet-react-app/static/media/ramen.c2fa556d.jpeg",
+    "static/media/shrimp-dumplings.jpeg": "/deploy-brunet-react-app/static/media/shrimp-dumplings.f77fd229.jpeg",
+    "static/media/tsukemono.jpeg": "/deploy-brunet-react-app/static/media/tsukemono.58dcf38e.jpeg",
+    "static/media/video10.mp4": "/deploy-brunet-react-app/static/media/video10.74623838.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.8e9ce509.js",
-    "static/js/2.26141467.chunk.js",
-    "static/js/main.525b0ff7.chunk.js"
+    "static/js/runtime-main.02cc53a7.js",
+    "static/js/2.2141ca6e.chunk.js",
+    "static/js/main.4da46017.chunk.js"
   ]
 }
